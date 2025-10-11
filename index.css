@@ -1,14 +1,40 @@
+/* fonts */
+@font-face {
+  font-family: 'att-pc6300';
+  src: url("./assets/fonts/Web437_ATT_PC6300.woff") format('woff');
+}  
+
+.att-pc6300{
+    font-family: "att-pc6300";
+}
+
 html
 {
-    background-color: black;
-    color: white;
-    font-size: 16px;
+    background-color: #0C0C0C;
+    color: #CCCCCC
 }
 
 body{
     display: flex;
     justify-content: center; 
     align-items: center;     
-    height: 90vh;           
-    margin: 0;               
+    /*height: 100vh;*/
+    margin: 3vh 0 3vh 0;               
+}
+
+pre{
+    font-family: "att-pc6300";
+    font-size: 18px;
+}
+
+pre::selection{
+    background-color: #FFFFFF;
+}
+
+a{
+    color: #0087bd;
+}
+
+a::selection{
+    background-color: #FFFFFF;
 }
