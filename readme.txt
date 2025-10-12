@@ -1,3 +1,3 @@
-########## HEAPBLK ##########
-these are the sources for my
-personal website.
+##################### HEAPBLK #####################
+these are the sources for my personal website/blog
+
