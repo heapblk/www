@@ -1,6 +1,5 @@
 const g_path_map = new Map();
-g_path_map.set("/foundations/", "/foundations/index.html");
-g_path_map.set("/systems/", "/systems/index.html");
+g_path_map.set("/blog/", "/blog/index.html");
 
 async function loadPageHTML(url) {
 	try {

@@ -18,13 +18,12 @@ body{
     display: flex;
     justify-content: center; 
     align-items: center;     
-    /*height: 100vh;*/
     margin: 3vh 0 3vh 0;               
 }
 
 pre{
     font-family: "att-pc6300";
-    font-size: 18px;
+    font-size: 19px;
 }
 
 pre::selection{
