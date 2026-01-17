@@ -1,33 +1,52 @@
-/* fonts */
-@font-face {
-  font-family: 'att-pc6300';
-  src: url("./assets/fonts/Web437_ATT_PC6300.woff") format('woff');
-}  
-
-.att-pc6300{
-    font-family: "att-pc6300";
-}
-
 html
 {
+    font-family: "Fira Code", monospace;
+    font-optical-sizing: auto;
+    font-style: normal;
     background-color: #0C0C0C;
     color: #CCCCCC
 }
 
-body{
-    display: flex;
-    justify-content: center; 
-    align-items: center;     
-    margin: 3vh 0 3vh 0;               
+.nav-bar{
+    font-size: large;
 }
 
-pre{
-    font-family: "att-pc6300";
-    font-size: 19px;
+.banner{
+    width: 100%;
+    height: auto;
+    display: block;
+    margin-bottom: 3px;
 }
 
-pre::selection{
-    background-color: #FFFFFF;
+.main-content{
+    display: block;
+    justify-content: center;
+    align-items: center;
+    width: 50%;
+    margin: 0 auto 3vh;
+}
+
+@media (max-width: 900px) {
+  .main-content {
+    width: 98%;
+  }
+}
+
+.content{
+    text-align: left;
+    line-height: 28px;
+}
+
+.blog-entry{
+    border-style: solid;
+    width: 50vw;
+    margin: 0 auto 3vh;
+}
+
+/* elements */
+h1, h2, h3{
+    text-align: left;
+    margin-bottom: -5px;
 }
 
 a{
@@ -36,4 +55,16 @@ a{
 
 a::selection{
     background-color: #FFFFFF;
+}
+
+li::marker{
+    content: "- ";
+}
+
+hr{
+    border: none;
+    height: 1px;
+    background-color: rgb(73, 73, 73);
+    width: 100%;
+    margin: 25px 0 25px 0; 
 }
