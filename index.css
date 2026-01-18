@@ -22,25 +22,19 @@ html
     display: block;
     justify-content: center;
     align-items: center;
-    width: 50%;
+    width: 38lh;
     margin: 0 auto 3vh;
 }
 
-@media (max-width: 900px) {
+@media (max-width: 800px) {
   .main-content {
-    width: 98%;
+    width: 100%;
   }
 }
 
 .content{
     text-align: left;
     line-height: 28px;
-}
-
-.blog-entry{
-    border-style: solid;
-    width: 50vw;
-    margin: 0 auto 3vh;
 }
 
 /* elements */
